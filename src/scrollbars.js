@@ -73,7 +73,7 @@
             },
             link : function (scope, elem, attrs) {
 
-                if (scope.ngScrollBarsDisabled === true) return;
+                if (scope.ngScrollBarsDisabled) return;
 
                 scope.elem = elem;
 
