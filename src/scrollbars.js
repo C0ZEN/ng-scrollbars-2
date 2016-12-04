@@ -69,14 +69,11 @@
                 ngScrollbarsUpdate  : '=?',
                 ngScrollTo          : '=?',
                 element             : '=?',
-                ngScrollBarsDisabled: '=?'
+                ngScrollbarsDisabled: '=?'
             },
             link : function (scope, elem, attrs) {
 
-                console.log(scope.ngScrollBarsDisabled);
-                if (scope.ngScrollBarsDisabled) return;
-                console.log(scope.ngScrollBarsDisabled);
-                console.log(attrs.ngScrollBarsDisabled);
+                if (scope.ngScrollbarsDisabled) return;
 
                 scope.elem = elem;
 
